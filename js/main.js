@@ -68,8 +68,8 @@ fadeEls.forEach((fadeEl, index) => {
 
 new Swiper('.notice-line .swiper', {
   direction: 'vertical',
-  // autoplay: true,
-  // loop: true
+  autoplay: true,
+  loop: true
 });
 
 new Swiper('.promotion .swiper', { 
